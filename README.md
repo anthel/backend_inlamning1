@@ -2,3 +2,6 @@
 * Beskriv HTTP-protokollets vanligaste metoder och vad de gör.
 * "http://localhost:3000/users?username=something" är en URI, beskriv vilka delar den består av och vad de kallas.
 * På vilka tre sätt kan man skicka in parametrar i en HTTP-request? Ge exempel med curl.
+
+
+## Feedback
