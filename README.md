@@ -36,7 +36,7 @@ Detta är query parametrar
 curl localhost:3000/users?name=ante
 ```
 ```sh
-curl localhost:3000/users;name=ante
+curl localhost:3000/users/ante
 ```
 ```sh
 curl localhost:3000/users -H "name: ante"
