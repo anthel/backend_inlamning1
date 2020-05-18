@@ -32,15 +32,15 @@ Detta är query parametrar
 
 * På vilka tre sätt kan man skicka in parametrar i en HTTP-request? Ge exempel med curl.<br/>
 
-### `query parameter`
+#### `query parameter`
 ```sh
 curl localhost:3000/users?name=ante
 ```
-### `path parameter`
+#### `path parameter`
 ```sh
 curl localhost:3000/users/ante
 ```
-### `header parameter`
+#### `header parameter`
 ```sh
 curl localhost:3000/users -H "name: ante"
 ```
