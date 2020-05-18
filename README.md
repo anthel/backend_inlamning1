@@ -31,13 +31,15 @@ Detta är pathen
 Detta är query parametrar
 
 * På vilka tre sätt kan man skicka in parametrar i en HTTP-request? Ge exempel med curl.
-
+'query parameter'
 ```sh
 curl localhost:3000/users?name=ante
 ```
+'path parameter'
 ```sh
 curl localhost:3000/users/ante
 ```
+'header parameter'
 ```sh
 curl localhost:3000/users -H "name: ante"
 ```
